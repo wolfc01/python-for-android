@@ -92,10 +92,6 @@ Notes for android-ndk-r7
       cd $ANDROIDNDK/prebuilt/linux-x86/bin
       mv awk awk_
 
-extra environment vars needed::
-
-    export HOST_AWK=/usr/bin/gawk
-
 Usage
 -----
 
