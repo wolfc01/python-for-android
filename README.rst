@@ -41,6 +41,8 @@ might need other tools::
 
     sudo apt-get install build-essential patch git-core ccache
 
+Needed ubunu packages:
+    libzip-dev:    sudo apt-get install libzip-dev
 
 
 You must have android SDK and NDK. You can download them at::
