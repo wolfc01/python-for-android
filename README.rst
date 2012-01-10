@@ -41,7 +41,8 @@ might need other tools::
 
     sudo apt-get install build-essential patch git-core ccache
 
-Other ubuntu packages needed:
+Other ubuntu packages needed::
+
     libzip-dev:    sudo apt-get install libzip-dev
     cython:        sudo apt-get install cython
 
