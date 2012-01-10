@@ -41,10 +41,14 @@ might need other tools::
 
     sudo apt-get install build-essential patch git-core ccache
 
+
+
 You must have android SDK and NDK. You can download them at::
 
     http://developer.android.com/sdk/index.html
     http://developer.android.com/sdk/ndk/index.html
+
+For best results you need oracle java SE: java-jdk-7 for running  the android tooling on oneiric. 
 
 If it's your very first time into android SDK, don't forget to follow
 documentation for recommended components at::
