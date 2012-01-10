@@ -39,12 +39,7 @@ WARNING: the current version is tested only on Ubuntu oneiric (11.10). If it doe
 You need the minimal environment for building python. Note that other libraries
 might need other tools::
 
-    sudo apt-get install build-essential patch git-core ccache
-
-Other ubuntu packages needed::
-
-    libzip-dev:                       sudo apt-get install libzip-dev
-    cython:                           sudo apt-get install cython
+    sudo apt-get install build-essential patch git-core ccache libzip-dev cython
 
 You must have android SDK and NDK. You can download them at::
 
