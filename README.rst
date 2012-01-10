@@ -41,7 +41,7 @@ might need other tools::
 
     sudo apt-get install build-essential patch git-core ccache
 
-Needed ubunu packages:
+Needed ubuntu packages:
     libzip-dev:    sudo apt-get install libzip-dev
 
 
@@ -83,6 +83,7 @@ After installing them, export both installation path, NDK version and API to use
     export ANDROIDNDKVER=r7
     export ANDROIDAPI=14
 
+Note that ANDROIDAPI=12 seems not to work, because the android NDK has no android-12 dir in the platforms dir??
 
 Usage
 -----
