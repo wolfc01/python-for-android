@@ -79,6 +79,7 @@ After installing them, export both installation path, NDK version and API to use
     export ANDROIDNDKVER=r7
     export ANDROIDAPI=14
     export PATH=$PATH:$ANDROIDSDK/tools
+    export PATH=$PATH:$ANDROIDSDK/platform-tools
 
 Notes for android-ndk-r7
 
