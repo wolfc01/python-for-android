@@ -86,8 +86,8 @@ After installing them, export both installation path, NDK version and API to use
 
 Notes for android-ndk-r7
 
-    #. ANDROIDAPI versions 6,7,10,11,12,13 seems not to work, because the android NDK has no android-12 dir in the platforms dir??
-    #. The awk supplied with the ndk is outdated. Do the following::
+#. ANDROIDAPI versions 6,7,10,11,12,13 seems not to work, because the android NDK has no android-12 dir in the platforms dir??
+#. The awk supplied with the ndk is outdated. Do the following::
 
       cd $ANDROIDNDK/prebuilt/linux-x86/bin
       mv awk awk_
