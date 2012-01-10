@@ -86,6 +86,8 @@ After installing them, export both installation path, NDK version and API to use
 
 Note that for android-ndk-r7 ANDROIDAPI versions 6,7,10,11,12,13 seems not to work, because the android NDK has no android-12 dir in the platforms dir??
 
+extra environment vars needed::
+
     export HOST_AWK=/usr/bin/gawk
 
 Usage
