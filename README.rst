@@ -43,8 +43,10 @@ might need other tools::
 
 Other ubuntu packages needed::
 
-    libzip-dev:    sudo apt-get install libzip-dev
-    cython:        sudo apt-get install cython
+    libzip-dev:                       sudo apt-get install libzip-dev
+    cython:                           sudo apt-get install cython
+    desktop opengl headers:           sudo apt-get freeglut3-dev
+                                      ?libgl1-mesa-dev, libglu1-mesa-dev and libxxf86vm-dev
 
 You must have android SDK and NDK. You can download them at::
 
