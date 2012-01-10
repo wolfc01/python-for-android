@@ -48,7 +48,12 @@ You must have android SDK and NDK. You can download them at::
     http://developer.android.com/sdk/index.html
     http://developer.android.com/sdk/ndk/index.html
 
-For best results you need oracle java SE: java-jdk-7 for running  the android tooling on oneiric. 
+For best results you need oracle java SE: java-jdk-7 for running the android tooling on oneiric. When done,
+java -version should report something like the following (versions may differ).
+
+java version "1.7.0"
+Java(TM) SW Runtime Environment (build 1.7.0-b147)
+...
 
 If it's your very first time into android SDK, don't forget to follow
 documentation for recommended components at::
