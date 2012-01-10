@@ -39,7 +39,7 @@ WARNING: the current version is tested only on Ubuntu oneiric (11.10). If it doe
 You need the minimal environment for building python. Note that other libraries
 might need other tools::
 
-    sudo apt-get install build-essential patch git-core ccache libzip-dev cython
+    sudo apt-get install build-essential patch git-core ccache libzip-dev cython ant python-jinja2
 
 You must have android SDK and NDK. You can download them at::
 
@@ -78,6 +78,7 @@ After installing them, export both installation path, NDK version and API to use
     export ANDROIDNDK="/home/tito/code/android/android-ndk-r7"
     export ANDROIDNDKVER=r7
     export ANDROIDAPI=14
+    export PATH=$PATH:$ANDROIDSDK/tools
 
 Notes for android-ndk-r7
 
