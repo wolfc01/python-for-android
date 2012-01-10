@@ -43,6 +43,7 @@ might need other tools::
 
 Needed ubuntu packages:
     libzip-dev:    sudo apt-get install libzip-dev
+    gawk           sudo apt-get install gawk
 
 
 You must have android SDK and NDK. You can download them at::
@@ -84,6 +85,8 @@ After installing them, export both installation path, NDK version and API to use
     export ANDROIDAPI=14
 
 Note that for android-ndk-r7 ANDROIDAPI versions 6,7,10,11,12,13 seems not to work, because the android NDK has no android-12 dir in the platforms dir??
+
+    export HOST_AWK=/usr/bin/gawk
 
 Usage
 -----
