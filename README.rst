@@ -41,10 +41,9 @@ might need other tools::
 
     sudo apt-get install build-essential patch git-core ccache
 
-Needed ubuntu packages:
+Other ubuntu packages needed:
     libzip-dev:    sudo apt-get install libzip-dev
-    gawk           sudo apt-get install gawk
-
+    cython:        sudo apt-get install cython
 
 You must have android SDK and NDK. You can download them at::
 
